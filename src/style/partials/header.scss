@@ -3,7 +3,7 @@
     align-items: center;
     width: 100%;
     position: relative;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.75);
     z-index: 1;
   }
 
@@ -20,8 +20,9 @@
       color: #fff;
       display: inline-block;
       font-size: 1.5em;
+      font-weight: 700;
       &:hover {
-        color: #311b92;
+        color: #41719d;
       }
     }
 

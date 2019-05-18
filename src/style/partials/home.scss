@@ -26,36 +26,38 @@
     right: 0;
 
   }
-}
 
-.parallax-container {
-  height: 90vh !important;
-  width: 100%;
-  top: -115px;
-  padding-top: 115px;
-  clip-path: polygon(100% 0, 100% 44%, 100% 91%, 66% 100%, 0 88%, 0 0);
+  .parallax-container {
+    height: 90vh !important;
+    width: 100%;
+    top: -115px;
+    padding-top: 115px;
+    clip-path: polygon(100% 0, 100% 44%, 100% 91%, 66% 100%, 0 88%, 0 0);
 
-}
-.bg-overlay {
-  position: absolute;
-  width: 100%;
-  height: calc(100% - 115px);
-  background-color: rgba(0, 0, 0, 0.5);
+    .bg-overlay {
+      position: absolute;
+      width: 100%;
+      height: calc(100% - 115px);
+      background-color: rgba(0, 0, 0, 0.5);
 
-  .bg-inner {
-    color: #fff;
-    padding-top: calc(100vh / 3);
+      .bg-inner {
+        color: #fff;
+        padding-top: calc(100vh / 3);
 
-    h4 {
-      font-weight: 300;
+        h4 {
+          font-weight: 300;
+        }
+
+        .bg-inner-title {
+          font-weight: 700;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
     }
-
-    .bg-inner-title {
-      font-weight: 700;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
   }
 }
+
+
+
 
 
