@@ -1,0 +1,55 @@
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0,0,0,.4);
+    z-index: 1;
+  }
+
+  .logo-link {
+    display: block;
+  }
+
+
+  .nav {
+    text-align: right;
+    margin-right: 50px;
+
+    a {
+      color: #fff;
+      display: inline-block;
+      font-size: 1.5em;
+      &:hover {
+        color: #311b92;
+      }
+    }
+
+    .nav-menu-item {
+      display: inline-block;
+
+      &:last-child {
+        margin-left: 25px;
+      }
+    }
+
+    .nav-menu-link {
+      line-height: 115px;
+      padding: 0 15px;
+    }
+
+    .fa-telegram-plane {
+      margin: 0 10px;
+    }
+
+  }
+
+  .line-height {
+    line-height: 60px !important;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition:all 1s;
+  }
+
+
